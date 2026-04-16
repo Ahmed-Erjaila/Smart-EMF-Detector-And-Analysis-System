@@ -16,7 +16,7 @@ An advanced embedded system developed to sense and classify AC electromagnetic f
 ## Hardware Components
 - Arduino Uno (ATmega328P)
 - I2C LCD 1602
-- Piezo Buzzer
+- Speaker
 - Custom Probe (Copper Wire + Iron Core)
 - 100k Ohm Resistor (Pull-down)
 - Tactical Push Button
