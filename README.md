@@ -19,6 +19,7 @@ An advanced embedded system developed to sense and classify AC electromagnetic f
 - Piezo Buzzer
 - Custom Probe (Copper Wire + Iron Core)
 - 100k Ohm Resistor (Pull-down)
+- Tactical Push Button
 - ## Workload Distribution
 - *Responsible Student:* Ahmed M. A. Erjaila (Individual Project)
 - *Role:* Full system design, hardware fabrication (inductive sensor), C-firmware development, and circuit integration.
