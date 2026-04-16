@@ -22,3 +22,13 @@ An advanced embedded system developed to sense and classify AC electromagnetic f
 - ## Workload Distribution
 - *Responsible Student:* Ahmed M. A. Erjaila (Individual Project)
 - *Role:* Full system design, hardware fabrication (inductive sensor), C-firmware development, and circuit integration.
+
+## Phase 1: Design & Simulate Strategy
+The Problem:
+During the design phase with Proteus, we noticed that the simulation process does not simulate real life EMFs. An antenna floating inside an electronic environment will not be able to detect the necessary ambient noise (50/60 Hz) for activating the sensor.
+The Solution:
+Before moving on to the programming stage, we will replace our real-life coil with a 10K potentiometer.
+Objective:
+This will allow us to feed the pin (A0) with different levels of voltage ranging from 0V to 5V.
+Validation:
+We can now use this system to test our threshold logic and verify if our buzzer/LCD code works.
