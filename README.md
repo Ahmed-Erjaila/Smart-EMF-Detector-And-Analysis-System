@@ -5,7 +5,7 @@
 - *University:* Ostim Technical University
 
 ## Project Objective
-An advanced embedded system developed to sense and classify AC electromagnetic fields (EMF) using a C-programmed ATmega328P microcontroller (Arduino Uno).
+An advanced embedded system developed to sense and classify AC electromagnetic fields (EMF) using a C++-programmed ATmega328P microcontroller (Arduino Uno).
 
 ## Module Breakdown
 1. *Sensing Module:* Custom-built hybrid inductive sensor (Coil + Iron Core).
