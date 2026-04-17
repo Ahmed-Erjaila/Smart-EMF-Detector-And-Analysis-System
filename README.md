@@ -24,7 +24,7 @@ An advanced embedded system developed to sense and classify AC electromagnetic f
 - remote
 - ## Workload Distribution
 - *Responsible Student:* Ahmed M. A. Erjaila (Individual Project)
-- *Role:* Full system design, hardware fabrication (inductive sensor), C-firmware development, and circuit integration.
+- *Role:* Full system design, hardware fabrication (inductive sensor), C++-firmware development, and circuit integration.
 
 ## Phase 1: Design & Simulate Strategy
 The Problem:
