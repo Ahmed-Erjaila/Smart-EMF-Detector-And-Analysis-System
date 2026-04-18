@@ -1,3 +1,7 @@
+/** EMF DETECTOR LOGIC- FINAL TEST
+  * AUTHORED BY AHMED M. A. ERJAILA
+  */
+
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <IRremote.h> 
