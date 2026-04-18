@@ -96,5 +96,52 @@ void loop() {
     // Fixed: Passing only 2 arguments
     playSpeaker(800 + s, 25);
     delayMicroseconds(pulse);
+    
   }
+}
+// System Functions
+void startSys() {
+  systemActive = true; calibrated = false;
+  lcd.backlight(); lcd.clear();
+  lcd.setCursor(2, 0); lcd.print("EMF DETECTOR");
+  lcd.setCursor(1, 1); lcd.print("AHMED ERJAILA");
+  
+  // Fixed: Passing only 2 arguments
+  for (int f = 600; f < 1800; f += 200) { playSpeaker(f, 50); }
+  
+  delay(1000); 
+  lcd.clear();
+  lcd.print("READY TO SCAN");
+}
+
+void runCalib() {
+  calibrated = true;
+  lcd.clear(); lcd.print("CALIBRATING...");
+  long sum = 0;
+  for (int i = 0; i < 480; i++) { 
+    sum += analogRead(coilPin);
+    delay(2);
+  }
+  baseline = sum / 480;
+  
+  // Fixed: Passing only 2 arguments
+  playSpeaker(1600, 150);
+  delay(50);
+  playSpeaker(1600, 150);
+  
+  lcd.clear();
+  lcd.print("BASE SET: "); lcd.print(baseline);
+  delay(900);
+}
+
+void stopSys() {
+  systemActive = false; calibrated = false;
+  digitalWrite(ledPin, LOW); 
+  lcd.clear(); lcd.print("POWERING OFF...");
+  
+  // Fixed: Passing only 2 arguments
+  for (int f = 1800; f > 600; f -= 200) { playSpeaker(f, 50); }
+  
+  delay(600);
+  lcd.noBacklight(); lcd.clear();
 }
