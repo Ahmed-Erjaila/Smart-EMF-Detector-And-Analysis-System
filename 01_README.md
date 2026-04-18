@@ -35,3 +35,6 @@ During the design phase with Proteus, we noticed that the simulation process doe
  **Solution:**
 Before moving on to the programming stage, we will replace our real-life coil with a **10K potentiometer**.
 
+### 2. IR Signal Interference and Audio Upgrade
+**Challenge:** When connecting the IR Receiver and Remote Control together, there was an issue of conflicting signals. The Buzzer produced electronic noise and timing conflicts, which affected the IR sensor’s ability to interpret the commands sent by the remote control. In addition, the frequency of the buzz emitted when the buzzer is operated manually is too shrill and unpleasant to the user's ears.
+**Solution:** To fix this problem and enhance the performance of the system, we upgraded the audio component of the circuit. Instead of using the buzzer, we substituted it with a Speaker.
