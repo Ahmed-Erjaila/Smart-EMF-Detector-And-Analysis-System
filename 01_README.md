@@ -29,7 +29,7 @@ An advanced embedded system developed to sense and classify AC electromagnetic f
 ## Challenges and Sulutions
 
 **Challenge:**
-During the design phase with Proteus, we noticed that the simulation process does not simulate real life EMFs. An antenna floating inside an electronic environment will not be able to detect the necessary ambient noise (50/60 Hz) for activating the sensor.
+During the design phase with Proteus, we noticed that the simulation process does not simulate real life EMFs. An antenna floating inside an electronic environment will not be able to detect the necessary ambient noise (50/60 Hz) for activating the sensor. *
  **Solution:**
 Before moving on to the programming stage, we will replace our real-life coil with a **10K potentiometer**.
 
