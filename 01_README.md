@@ -27,7 +27,7 @@ An advanced embedded system developed to sense and classify AC electromagnetic f
 - *Role:* Full system design, hardware fabrication (inductive sensor), C++-firmware development, and circuit integration.
 
 ## Challenges and Sulutions
-
+### 1. Simulation Limitations (proteos)
 **Challenge:**
 During the design phase with Proteus, we noticed that the simulation process does not simulate real life EMFs. An antenna floating inside an electronic environment will not be able to detect the necessary ambient noise (50/60 Hz) for activating the sensor. *
  **Solution:**
