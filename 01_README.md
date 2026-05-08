@@ -46,3 +46,12 @@ Before moving on to the programming stage, we will replace our real-life coil wi
 ### 4. High Sensitivity and Effects of Ambient Noise
 **Challenge:** In order to make sure that the device will be able to detect any weak signal of EMF, we made the sensitivity of the device extremely high. This however, resulted in the device being "too sensitive" and hence, was picking up stray signals in the form of static electricity from our bodies, as well as electronic interference from the surrounding environment.
 **Solution:** Our solution to this problem is through a Calibration Step when starting up the device. The device detects the noise signal in the environment when it is powered up, and after a few seconds, this is taken as the offset. This offset value is then deducted from all readings in the code.
+
+
+# Conclusion
+
+This project successfully demonstrates the design and implementation of an embedded AC electromagnetic field (EMF) detection system using the ATmega328P microcontroller platform. The system combines analog sensing, real-time signal processing, LCD visualization, and audible feedback into a compact and functional engineering solution.
+
+Throughout the development process, several practical engineering challenges were encountered, including simulation limitations, signal interference, ambient noise sensitivity, and audio output constraints. These issues were addressed through hardware modifications, calibration techniques, and optimized firmware design.
+
+The project provided valuable experience in embedded systems engineering, circuit integration, sensor design, signal analysis, and debugging. In addition, it highlights the capability of low-cost microcontroller systems to perform real-time electromagnetic sensing applications effectively.
